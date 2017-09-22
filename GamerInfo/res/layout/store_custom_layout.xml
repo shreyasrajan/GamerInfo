@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/imVwStoreThumb"
+        android:layout_width="@dimen/thumbNailImageSize"
+        android:layout_height="@dimen/thumbNailImageSize"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/gamesListLeftTopMar"
+        android:layout_marginTop="@dimen/gamesListLeftTopMar"
+        android:contentDescription="@string/NoImgFound" />
+
+    <TextView
+        android:id="@+id/tvStoreName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imVwStoreThumb"
+        android:layout_marginLeft="@dimen/gamesListLeftTopMar"
+        android:layout_toRightOf="@+id/imVwStoreThumb"
+        android:textSize="@dimen/gameNameFontSize"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvStoreAddress1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvStoreName"
+        android:layout_below="@+id/tvStoreName"
+        android:layout_marginTop="@dimen/gamesListLeftTopMar" />
+
+    <TextView
+        android:id="@+id/tvStoreRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvStorePhone"
+        android:layout_below="@+id/tvStorePhone"
+        android:layout_marginTop="@dimen/gamesListTopMar2"
+        android:text="@string/tvStoreRating"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvStoreRatingVal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvStoreRating"
+        android:layout_alignBottom="@+id/tvStoreRating"
+        android:layout_toRightOf="@+id/tvStoreRating" />
+
+    <TextView
+        android:id="@+id/tvStoreCity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvStoreAddress1"
+        android:layout_below="@+id/tvStoreAddress1" />
+
+    <TextView
+        android:id="@+id/tvStoreState"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvStoreAddress1"
+        android:layout_toRightOf="@+id/tvStoreCity" />
+
+    <TextView
+        android:id="@+id/tvStoreZip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvStoreAddress1"
+        android:layout_toRightOf="@+id/tvStoreState" />
+
+    <TextView
+        android:id="@+id/tvStorePhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvStoreCity"
+        android:layout_below="@+id/tvStoreCity" />
+
+</RelativeLayout>

@@ -1,0 +1,4 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/action_setupUser" android:title="@string/setupUser" ></item>
+    <item android:id="@+id/action_exit" android:title="@string/exit" ></item>
+</menu>

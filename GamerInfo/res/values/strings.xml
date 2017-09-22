@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Gamer Info</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="NoImgFound">No Image Found</string>
+    <string name="LoadingText">Loading.....</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_game_search">Game Search</string>
+    <string name="title_activity_user_config">User Configuration</string>
+    <string name="userName">User ID:</string>
+    <string name="configure">Configure</string>
+    <string name="setupUser">Configure User ID</string>
+    <string name="exit">Exit</string>
+    <string name="tvOR">OR</string>
+    <string name="btnSearchText">GO</string>
+    <string name="tvGameName">Search By Game</string>
+    <string name="tvGame">Game Name:</string>
+    <string name="platformSearch">Search By Platform</string>
+    <string name="platform">Platform:</string>
+    <string name="title_activity_games_list">Games List</string>
+    <string name="tvReleaseDate">Release Date:</string>
+    <string name="title_activity_game_details">Game Details</string>
+    <string name="tvGenres">Genres: </string>
+    <string name="tvGameRating">Game Ratings: </string>
+    <string name="tvDeveloper">Developer:</string>
+    <string name="tvPublisher">Publisher:</string>
+    <string name="btnAddWishList">Add To Wish-List</string>
+    <string name="btnRemWishList">Remove from Wish-List</string>
+    <string name="title_activity_review_search">Review Search</string>
+    <string name="findReviews">Get Reviews</string>
+    <string name="title_activity_game_reviews">Game Reviews</string>
+    <string name="tvReview">Review:</string>
+    <string name="tvScore">Score (on 5):</string>
+    <string name="title_activity_review_web">Game Review</string>
+    <string name="title_activity_my_wish_list">My Wish-List</string>
+    <string name="makePublic">Make Wish-List Public</string>
+    <string name="remPublic">Make Wish-List Private</string>
+
+    <color name="colGreen">#006600</color>
+    <color name="colBlue">#003366</color>
+
+    <string name="title_activity_public_wishlist">Public Wish-Lists</string>
+    <string name="title_activity_game_store_search">Game Store Search</string>
+    <string name="tvRadius">Select Radius:</string>
+    <string name="btnStoreSearch">Search Stores</string>
+    <string name="title_activity_stores_list">Video Game Stores List</string>
+    <string name="tvStoreMiles">miles</string>
+    <string name="tvStoreRating">Rating:</string>
+    <string name="title_activity_game_store_web">Game Store</string>
+
+</resources>

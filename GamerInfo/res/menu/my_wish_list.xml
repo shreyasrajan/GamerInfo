@@ -1,0 +1,4 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/action_makePublic" android:title="@string/makePublic" ></item>
+    <item android:id="@+id/action_removePublic" android:title="@string/remPublic" ></item>
+</menu>

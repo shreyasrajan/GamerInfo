@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gamerinfo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="12"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.gamerinfo.SplashScreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.gamerinfo.Home"
+            android:label="@string/title_activity_home" >
+        </activity>
+        <activity
+            android:name="com.example.gamerinfo.GameSearch"
+            android:label="@string/title_activity_game_search" >
+        </activity>
+        <activity
+            android:name="com.example.gamerinfo.UserConfig"
+            android:label="@string/title_activity_user_config" >
+        </activity>
+        <activity
+            android:name="com.example.gamerinfo.GamesList"
+            android:label="@string/title_activity_games_list" >
+        </activity>
+        <activity
+            android:name="com.example.gamerinfo.GameDetails"
+            android:label="@string/title_activity_game_details" >
+        </activity>
+        <activity
+            android:name="com.example.gamerinfo.ReviewSearch"
+            android:label="@string/title_activity_review_search" >
+        </activity>
+        <activity
+            android:name="com.example.gamerinfo.GameReviews"
+            android:label="@string/title_activity_game_reviews" >
+        </activity>
+        <activity
+            android:name="com.example.gamerinfo.ReviewWeb"
+            android:label="@string/title_activity_review_web" >
+        </activity>
+        <activity
+            android:name="com.example.gamerinfo.MyWishList"
+            android:label="@string/title_activity_my_wish_list" >
+        </activity>
+        <activity
+            android:name="com.example.gamerinfo.PublicWishlist"
+            android:label="@string/title_activity_public_wishlist" >
+        </activity>
+        <activity
+            android:name="com.example.gamerinfo.GameStoreSearch"
+            android:label="@string/title_activity_game_store_search" >
+        </activity>
+        <activity
+            android:name="com.example.gamerinfo.StoresList"
+            android:label="@string/title_activity_stores_list" >
+        </activity>
+        <activity
+            android:name="com.example.gamerinfo.GameStoreWeb"
+            android:label="@string/title_activity_game_store_web" >
+        </activity>
+    </application>
+
+</manifest>

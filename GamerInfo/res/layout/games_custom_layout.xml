@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/imVwThumbNail"
+        android:layout_width="@dimen/thumbNailImageSize"
+        android:layout_height="@dimen/thumbNailImageSize"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/gamesListLeftTopMar"
+        android:layout_marginTop="@dimen/gamesListLeftTopMar"
+        android:contentDescription="@string/NoImgFound" />
+
+    <TextView
+        android:id="@+id/tvListGameName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imVwThumbNail"
+        android:layout_marginLeft="@dimen/gamesListLeftTopMar"
+        android:layout_toRightOf="@+id/imVwThumbNail"
+        android:textSize="@dimen/gameNameFontSize"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvListReleaseDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvListGameName"
+        android:layout_below="@+id/tvListGameName"
+        android:layout_marginTop="@dimen/homeScreenRowTopMargin"
+        android:text="@string/tvReleaseDate"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvPlatforms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/homeScreenRowTopMargin"
+        android:layout_alignLeft="@+id/tvListReleaseDate"
+        android:layout_below="@+id/tvListReleaseDate"
+        android:text="@string/platform"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvListRelDateValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tvListReleaseDate"
+        android:layout_toRightOf="@+id/tvListReleaseDate"
+        android:layout_marginLeft="@dimen/homeScreenMar" />
+
+    <TextView
+        android:id="@+id/tvListPlatformValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tvPlatforms"
+        android:layout_alignLeft="@+id/tvListRelDateValue" />
+
+</RelativeLayout>

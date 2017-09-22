@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">10dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="splashScreenImageHeight">350dp</dimen>
+    <dimen name="LoadingTextFontSize">18sp</dimen>
+    <dimen name="splashScreenTopMargin">30dp</dimen>
+    <dimen name="homeScreenTableRowHeight">125dp</dimen>
+    <dimen name="homeScreenRowTopMargin">20dp</dimen>
+    <dimen name="homeScreenLeftMar">40dp</dimen>
+    <dimen name="homeScreenMar">5dp</dimen>
+    <dimen name="homeScreenTopMar">60dp</dimen>
+    <dimen name="userScreenTopMar">100dp</dimen>
+    <dimen name="userScreenConfigBtnTopMar">150dp</dimen>
+    <dimen name="searchScreenTopMar">200dp</dimen>
+    <dimen name="gameSearchTrowHeight">50dp</dimen>
+    <dimen name="thumbNailImageSize">50dp</dimen>
+    <dimen name="gamesListLeftTopMar">10dp</dimen>
+    <dimen name="gameNameFontSize">15sp</dimen>
+    <dimen name="gamesListTopMar2">15dp</dimen>
+    <dimen name="gameDetImageSize">150dp</dimen>
+    <dimen name="reviewLeftMargin">25dp</dimen>
+</resources>

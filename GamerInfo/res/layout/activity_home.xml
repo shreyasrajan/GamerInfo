@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Home" >
+
+    <ImageView
+        android:id="@+id/imVwSearch"
+        android:layout_width="@dimen/homeScreenTableRowHeight"
+        android:layout_height="@dimen/homeScreenTableRowHeight"
+        android:src="@drawable/game_search_image"
+        android:contentDescription="@string/NoImgFound"
+        android:layout_marginLeft="@dimen/homeScreenLeftMar"
+        android:layout_marginTop="@dimen/homeScreenTopMar" />
+
+    <ImageView
+        android:id="@+id/imVwReviews"
+        android:layout_width="@dimen/homeScreenTableRowHeight"
+        android:layout_height="@dimen/homeScreenTableRowHeight"
+        android:layout_alignTop="@+id/imVwSearch"
+        android:layout_marginLeft="@dimen/homeScreenMar"
+        android:layout_toRightOf="@+id/imVwSearch"
+        android:contentDescription="@string/NoImgFound"
+        android:src="@drawable/game_review_image" />
+
+    <ImageView
+        android:id="@+id/imVwStoreSearch"
+        android:layout_width="@dimen/homeScreenTableRowHeight"
+        android:layout_height="@dimen/homeScreenTableRowHeight"
+        android:layout_below="@+id/imVwSearch"
+        android:layout_marginTop="@dimen/homeScreenMar"
+        android:layout_toLeftOf="@+id/imVwReviews"
+        android:contentDescription="@string/NoImgFound"
+        android:src="@drawable/game_store_search" />
+
+    <ImageView
+        android:id="@+id/imVwMyWishList"
+        android:layout_width="@dimen/homeScreenTableRowHeight"
+        android:layout_height="@dimen/homeScreenTableRowHeight"
+        android:layout_alignLeft="@+id/imVwReviews"
+        android:layout_marginTop="@dimen/homeScreenMar"
+        android:layout_below="@+id/imVwReviews"
+        android:contentDescription="@string/NoImgFound"
+        android:src="@drawable/my_wishlist_image" />
+
+    <ImageView
+        android:id="@+id/imVwPublicWishList"
+        android:layout_width="@dimen/homeScreenTableRowHeight"
+        android:layout_height="@dimen/homeScreenTableRowHeight"
+        android:layout_below="@+id/imVwStoreSearch"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/homeScreenMar"
+        android:contentDescription="@string/NoImgFound"
+        android:src="@drawable/public_wishlist_image" />
+    
+</RelativeLayout>
